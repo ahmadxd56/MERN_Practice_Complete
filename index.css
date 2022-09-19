@@ -1,3 +1,39 @@
-div {
-    border-radius: 5px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #111C21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: antiquewhite;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    box-shadow: 0 35px 55px black;
+}
+
+.container .left {
+    position: relative;
+    background: #525659;
+    padding: 40px;
+}
+
+.container .right {
+    position: relative;
+    background: white;
+    padding: 40px;
 }
