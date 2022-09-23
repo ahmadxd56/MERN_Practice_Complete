@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: antiquewhite;
+    background-color: rgb(179, 152, 120);
 }
 
 .container {
@@ -81,7 +81,7 @@ body {
 
 .contactinfo ul {
     position: relative;
-
+    margin-left: 20px;
 }
 
 .contactinfo ul li {
