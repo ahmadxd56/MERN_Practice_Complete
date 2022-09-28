@@ -1,0 +1,20 @@
+.img-fluid {
+    width: 100%;
+}
+
+.container-fluid {
+    height: 60px;
+}
+
+.cardContainer {
+    float: left;
+    padding: 50px;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.card {
+    float: left;
+    align-items: center;
+    padding: 10px;
+}
