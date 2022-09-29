@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(179, 152, 120);
+    background-color: #2a7ca279;
 }
 
 .container {
@@ -56,7 +56,7 @@ body {
 
 .selfName h2 {
     color: white;
-    font-size: 1.7em;
+    font-size: 2em;
     margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -64,7 +64,7 @@ body {
 }
 
 .selfName h2 span {
-    font-size: 0.7em;
+    font-size: 0.6em;
     font-style: italic;
 }
 
@@ -101,7 +101,7 @@ a {
 
 .container .left {
     position: relative;
-    background: #525659;
+    background: #002f45e5;
     padding: 40px;
 }
 
@@ -129,4 +129,26 @@ p {
     color: #525659;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.aboutMe .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.aboutMe .box .yearExp {
+    min-width: 150px;
+}
+
+.aboutMe .box .yearExp h5 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+.aboutMe .box .jobText h4 {
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
 }
