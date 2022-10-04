@@ -1,0 +1,363 @@
+#topbanner {
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    background-color: #000;
+    align-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#logo {
+    margin-left: 5%;
+    margin-right: 8px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    width: 100px;
+    float: left;
+}
+
+.topbarSection {
+    float: left;
+    border-left: 1px #262626 solid;
+    border: spacing 1px;
+    height: 40px;
+}
+
+.topbarSection a {
+    text-decoration: none;
+    color: white;
+}
+
+#moreButton {
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+#signinImage {
+    margin: 8px;
+    margin-left: 10%;
+    float: left;
+}
+
+#signinText {
+    font-weight: bold;
+    font-size: 95%;
+    position: relative;
+    top: 15px;
+    padding-right: 50px;
+}
+
+.topbarMenu {
+    font-weight: bold;
+    font-size: 95%;
+    padding: 15px;
+    height: 18%;
+    float: left;
+}
+
+.topbarMenuMore {
+    margin-top: 18px;
+}
+
+#searchBar {
+    background-color: #202224;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 5%;
+    float: left;
+}
+
+::placeholder {
+    color: white;
+}
+
+.advertisement {
+    height: 135px;
+    background-color: #eeeeee;
+    margin-top: -18px;
+}
+
+
+.advertisement img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.advertisement h4 {
+    text-align: center;
+    margin-left: 620px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.advSide {
+    height: 120%;
+    background-color: #eeeeee;
+    margin-top: -15px;
+    margin-left: 64%;
+    margin-right: 4.5%;
+
+}
+
+.advSide img {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+    position: sticky;
+}
+
+.advSide h4 {
+    text-align: right;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-weight: normal;
+}
+
+.container1 {
+    height: 500px;
+    margin-left: 4.5%;
+}
+
+.date {
+    float: right;
+    margin-right: 4.5%;
+    margin-top: -3.8%;
+    font-size: 22px;
+    color: #949494;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 107%;
+}
+
+.columnR {
+    width: 45%;
+    max-width: 45%;
+    margin-top: -0.4%;
+    float: right;
+}
+
+.columnR img {
+    float: left;
+    width: 48%;
+    padding: 1%;
+    height: 167px;
+}
+
+.bottom-left a {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.bottom-left a:hover {
+    text-decoration: underline;
+}
+
+.container2 {
+    margin-left: 5%;
+    margin-top: -5%;
+}
+
+.newsCard {
+    margin-left: 5%;
+    width: 300px;
+    height: 450px;
+    float: left;
+}
+
+.secondary {
+    margin-left: -2%;
+}
+
+.newsCardText {
+    margin-right: 10%;
+    width: 247px;
+    margin-top: 0px;
+}
+
+.btn {
+    border-left-style: solid;
+    border-color: red;
+    border-width: 3px;
+    padding-left: 5px;
+    color: #4a4a4a;
+    display: inline-block;
+    font-size: 1.5rem;
+
+}
+
+.btnS {
+    border-left-style: solid;
+    border-color: red;
+    border-width: 3px;
+    padding-left: 5px;
+    color: #4a4a4a;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.btnsp {
+    border-color: yellow;
+    margin-top: -50px;
+}
+
+.btnSpp {
+    border-color: yellow;
+}
+
+#sports {
+    margin-top: -320px;
+}
+
+#BBCServices {
+    width: 100%;
+    background-color: #f2f2f2;
+    float: left;
+    height: 400px;
+}
+
+.BBCServices2 {
+    margin-left: 5%;
+}
+
+#BBCServicesHeading {
+    color: #4a4a4a;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.BBCSer {
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 6%;
+}
+
+.BBCSer a {
+    float: left;
+    color: black;
+    text-decoration: none;
+    margin-top: 6px;
+}
+
+.BBCSer ul {
+    margin-left: -50px;
+    list-style: none;
+    padding: 40px;
+    margin-top: -25px;
+    display: block;
+}
+
+.BBCSer ul li {
+    padding: 7px;
+}
+
+.langList {
+    margin-top: 18px;
+    margin-left: -99px;
+}
+
+.BBCSer a:hover {
+    text-decoration: underline;
+}
+
+.expContainer {
+    width: 70%;
+    margin-left: -5%;
+
+}
+
+#explore {
+    width: 100%;
+    background-color: #4c4c4c;
+    float: left;
+    border-top: 1px solid #949494;
+    width: 100%;
+}
+
+.explore2 {
+    margin: 10px 0px 10px 145px;
+
+}
+
+#exploreHeading {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.explore3 {
+    margin: 10px 0px 10px 145px;
+    float: left;
+}
+
+.explore3 a {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.explore3 a:hover {
+    text-decoration: underline;
+}
+
+.explore4 {
+    border-left: 1px solid #949494;
+    margin-left: 5%;
+}
+
+.explore4 a {
+    margin-left: 20px;
+}
+
+#xHr {
+    width: 129%;
+    height: 1px;
+    border: 0px;
+    float: left;
+    margin-left: 145px;
+    background-color: #949494;
+}
+
+#footer {
+    float: left;
+    margin-left: 145px;
+    margin-top: 0px;
+    margin-right: -445px;
+}
+
+#footer p a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 14px;
+}
+
+#footer p {
+    color: white;
+    font-size: 14px;
+}
+
+#footer p a:hover {
+    text-decoration: underline;
+}
