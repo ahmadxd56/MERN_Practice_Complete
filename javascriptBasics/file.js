@@ -1,3 +1,4 @@
+//Alternate Practice
 function addNewTodo() {
     var newVal = $("#newTodo").val();
     if (newVal === "") {
