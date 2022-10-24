@@ -1,0 +1,2 @@
+This is a list of students
+We are trying to load this content using AJAX GET Request
