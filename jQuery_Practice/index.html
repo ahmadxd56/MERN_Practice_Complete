@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <!-- Jquery Links -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="./prac.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -12,13 +16,35 @@
 </head>
 
 <body>
-    <input type="text" class="newTodo">
-    <button class="addButton" onclick="handleBtnClick">Add Todo</button>
-    <ul class="todos">
-        <li>Add Milk</li>
-        <li>Stirr Tea</li>
-        <li>Take Tea</li>
-    </ul>
+    <div id="topbanner">
+        <div class="topbarSection topbarMenu">
+            <p class="addButton" onclick="handleBtnClick">Add</p>
+        </div>
+        <div class="topbarSection topbarMenu">
+            <p class="hideButton">Hide</p>
+        </div>
+        <div class="topbarSection topbarMenu">
+            <p class="fadeIn">Fade In</p>
+        </div>
+        <div class="topbarSection topbarMenu">
+            <p class="showButton">Show</p>
+        </div>
+        <div class="topbarSection topbarMenu">
+            <p class="toggleButton">Toggle</p>
+        </div>
+        <div class="topbarSection topbarMenu">
+            <p class="anim">Animate</p>
+        </div>
+        <div class="topbarSection topbarMenu">
+            <p href="#">Change Color</p>
+            <br><br><br><br>
+
+            <input type="text" class="newTodo">
+            <ul class="todos">
+                <li>Daneen</li>
+                <li>Sehar</li>
+                <li>Mishal</li>
+            </ul>
 </body>
 
 </html>
