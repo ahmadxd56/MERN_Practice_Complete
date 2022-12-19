@@ -1,45 +1,5 @@
 $(function () {
     loadRecipies();
-    $("#recipies").on("click", ".btn-danger", handleDelete);
-});
-
-function handleDelete() {
-    var btn = $(this);
-    var parentDiv = btn.closest(".apiReci");
-    let id = parentDiv.attr("data-id");
-    console.log(id);
-    $.ajax({
-        url: "https://jsonplaceholder.typicode.com/todos?id=" + id,
-        method: "DELETE",
-        success: function () {
-            id.removeChild(row);
-            loadRecipies();
-        }
-    });
-}
-
-function loadRecipies() {
-    $.ajax({
-        url: "https://jsonplaceholder.typicode.com/todos/",
-        method: "GET",
-        error: function (response) {
-            var recipes = $("#recipies");
-            recipes.html(`An Error has Occured`);
-        },
-        success: function (response) {
-            console.log(response);
-            var recipes = $("#recipies");
-            recipes.empty();
-            for (var i = 0; i < response.length; i++) {
-                var rec = response[i];
-                recipes.append(`<div class="apiReci" data-id="${rec.id}"><h3>${rec.id}</h3><p><button class="btn btn-danger btn-sm btndl">Delete</button> <button class="btn btn-warning btn-sm btndl">Edit</button>${rec.title}</p><p>${rec.completed}</p></div>`);
-            }
-        }
-    });
-}
-
-$(function () {
-    loadRecipies();
     $("#recipes").on("click", ".btn-danger", handleDelete);
     $("#recipes").on("click", ".btn-warning", handleUpdate);
     $("#addBtn").click(addRecipe);
