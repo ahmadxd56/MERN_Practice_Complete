@@ -1,0 +1,16 @@
+<h1>Start of Index.ejs File</h1>
+<ul>
+    <% for(var person of people) { %>
+        <% if (person.name==='Ahmad' ) { %>
+            <li>
+                I like <%= person.name %>
+            </li>
+            <% } else { %>
+                <li>
+                    I don't Like <%= person.name %>
+                </li>
+                <% } %>
+                    <% } %>
+</ul>
+
+<h3>End of INDEX.EJS (Child View File)</h3>
