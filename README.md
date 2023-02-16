@@ -1,4 +1,3 @@
-# SP20-BCS-008
-Ahmad Nawaz Khan - SP20-BCS-008 - Section B - By Sir Usman
+MERN STACK PRACTICE PROJECTS Repository 
 
-This Repository was made on the Directions of Sir Usman Akram for Submission Purposes of my Work throughout the semester.
+STEP BY STEP PRACTICE OF ALL MERN COMPONENTS
