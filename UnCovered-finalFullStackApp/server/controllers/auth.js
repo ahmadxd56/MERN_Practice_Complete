@@ -32,8 +32,6 @@ export const register = async (req, res) => {
             occupation,
             instagram,
             linkedin,
-            viewedProfile: Math.floor(Math.random() * 100),
-            impressions: Math.floor(Math.random() * 100),
         });
         const savedUser = await newUser.save();
         res.status(201).json(savedUser); //Gives out the status that a user has been successfully created
